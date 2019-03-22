@@ -9,7 +9,9 @@
  */
 return [
     'cashier' => [
-        'currency' => env('CASHIER_CURRENCY'),
-        'symbol' => env('CASHIER_CURRENCY_SYMBOL'),
+       /* 'currency' => env('CASHIER_CURRENCY'),
+        'symbol' => env('CASHIER_CURRENCY_SYMBOL'),*/
+        'currency' => 'usd',
+        'symbol' => 'USD',
     ]
 ];
